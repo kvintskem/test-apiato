@@ -1,0 +1,9 @@
+.idea
+/logs
+/data
+
+/nginx/ssl/*.crt
+/nginx/ssl/*.key
+/nginx/ssl/*.csr
+
+.DS_Store
