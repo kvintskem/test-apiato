@@ -34,6 +34,8 @@ INSERT INTO users_asup (number, fullname, email, integration_id, orgid, created_
 2. Запустить команду docker volume create --name=pgdata или make pg-volume-create
 3. Запустить docker-compose up -d или make go
 4. Должны подняться все контейнеры
+5. Войти в контейнер docker-compose exec php-dev sh 
+6. composer install
 
 ## Tech notes
 1. В таблице enterprises хранятся записи всех предприятий
