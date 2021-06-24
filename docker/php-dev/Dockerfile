@@ -62,5 +62,5 @@ USER www-data
 
 USER root
 
-CMD ["php-dev"]
+CMD ["php-fpm"]
 EXPOSE 9000
