@@ -17,4 +17,9 @@ class EnterpriseService implements EnterpriseServiceInterface
     {
         return Apiato::call(EnterpriseTasks::GET_ALL_BY_PARENT_TASK, [$parent]);
     }
+
+    public function getQuoteForEnterpriseTask()
+    {
+        return Apiato::call(EnterpriseTasks::GET_QUOTE_FOR_ENTERPRISE_TASK);
+    }
 }
